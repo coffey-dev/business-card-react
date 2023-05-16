@@ -19,8 +19,8 @@ export default function MainContent(){
                 <h4 className="role">Frontend developer</h4>
                 <h5 className="web">www.freecodecamp.org/scoffey</h5>
                 <div className="connect">
-                    <a href="mailto:scoffey@abc.gob.ar" className="mail">Email</a>
-                    <a href="https://www.linkedin.com/in/sebastiancoffey" className="linkedin">Linkedin</a>
+                    <a href="mailto:scoffey@abc.gob.ar" className="mail"><img src={mail} alt="mail" />Email</a>
+                    <a href="https://www.linkedin.com/in/sebastiancoffey" className="linkedin"><img src={linkedin} alt="" />Linkedin</a>
                 </div>
                 <div className="about">
                     <h3>About</h3>
