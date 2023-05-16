@@ -1,12 +1,18 @@
 import React from "react";
 import "../src/MainContent.css";
+import me from "./assets/Avatar.jpg"
+import facebook from "./assets/facebook.svg";
+import github from "./assets/github.svg";
+import linkedin from "./assets/linkedin.svg";
+import mail from "./assets/Mail.svg";
+
 
 export default function MainContent(){
     return (
         <>
         <div className="container">
             <div className="img-container">
-                <img src="" alt="" className="main-img" />
+                <img src={me} alt="" className="main-img" />
             </div>
             <div className="sub-container">
                 <h2 className="name">Sebastian Coffey</h2>
@@ -27,8 +33,10 @@ export default function MainContent(){
             </div>
 
             <div className="footer">
-                <a href="https://www.facebook.com/sebastiancoffey"><img src="" alt="" /></a>
-                <a href="https://www.facebook.com/sebastiancoffey"><img src="" alt="" /></a>
+                <a href="https://www.facebook.com/sebastiancoffey"><img className="facebook" src={facebook} alt="facebook" /></a>
+                <a href="https://www.facebook.com/sebastiancoffey"><img className="github" src={github} alt="github" /></a>
+                <a href="https://www.facebook.com/sebastiancoffey"><img className="linkedin" src={linkedin} alt="linkedin" /></a>
+                <a href="https://www.facebook.com/sebastiancoffey"><img className="mail" src={mail} alt="mail" /></a>
 
             </div>
         </div>
